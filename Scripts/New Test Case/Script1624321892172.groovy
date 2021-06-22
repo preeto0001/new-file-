@@ -21,11 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.snapchat.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Snapchat - The fastest way to share a moment/div_DownloadSpotlightStoriesMapAdsSpectacle_6c88a1'))
+WebUI.click(findTestObject('Object Repository/Snapchat/Page_Snapchat - The fastest way to share a moment/span'))
 
-WebUI.click(findTestObject('Object Repository/Page_Snapchat - The fastest way to share a moment/span'))
-
-WebUI.click(findTestObject('Object Repository/Page_Snapchat - The fastest way to share a moment/a_Stories'))
+WebUI.click(findTestObject('Object Repository/Snapchat/Page_Snapchat - The fastest way to share a moment/a_Spotlight'))
 
 WebUI.closeBrowser()
 
